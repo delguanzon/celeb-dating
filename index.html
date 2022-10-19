@@ -10,16 +10,18 @@
 </head>
 <body>
   <div>
-    <form>
+    <form id="quiz">
       <label for="firstName">First Name:</label>
       <input id="firstName" type="text" placeholder="Your firstname here" required="true">
       <label for="age">Age</label>
       <input id="age" type="number" required="true">
       <label for="color">Choose a color:</label>
-      <select id="color" name="cars">
+      <select id="color" name="color">
         <option value="black">Black</option>
         <option value="red">Red</option>
-      <select></select>
+        <option value="blonde">Blonde</option>
+      </select>
+      <button type="submit">Submit</button>
     </form>
 
     <div id="firstChar" class="hidden">
